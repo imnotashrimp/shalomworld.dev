@@ -1,0 +1,99 @@
+heading: Shalom Boroda
+subheading: Technical writer, UX writer, content strategist
+contactInfo:
+  phone: 058 782 6083
+  email: imnotashrimp@gmail.com
+  github: https://github.com/imnotashrimp
+  linkedin: https://www.linkedin.com/in/shalomworld/
+
+experience:
+  - company: Logz.io
+    location: Israel
+    website: https://logz.io
+    positions:
+      - title: Technical Writer, UX Writer
+        startDate: 2018
+        endDate: present
+        items:
+          - Create and develop content for <a href="https://docs.logz.io">Logz.io docs</a>, a collaborative website for managing docs.
+          - Manage public <a href="https://docs.logz.io/api/">API documentation</a>.
+          - Develop and maintain a <a href="https://github.com/logzio/logz-docs">custom built Jekyll template</a> for docs.
+          - Write UI copy for new designs.
+  - company: Philips Color Kinetics
+    location: USA
+    website: http://www.colorkinetics.com
+    positions:
+      - title: Technical Writer, Software and Systems
+        startDate: 2015
+        endDate: 2017
+        items:
+          - Simplified complex concepts and wrote concise content.
+          - Primary technical writer for software, SaaS, and controls.
+          - Authored marketing content for new products.
+          - Created clear, concise UI copy.
+          - Improved user experience by proposing changes to UI and workflow.
+  - company: Sovos Compliance
+    location: USA
+    website: https://sovos.com
+    positions:
+      - title: Operations Trainer
+        startDate: 2015
+        endDate: 2015
+        items:
+          - Created live online training workshops to teach users configuration of Taxware Enterprise tax calculation software.
+          - Trained Professional Services and Customer Support departments.
+      - title: Technical Writer, Software
+        startDate: 2013
+        endDate: 2015
+        items:
+          - Authored online help, API documentation, user guides, and release notes for SaaS and on-premise software.
+          - Created technical writing style guide.
+  - company: Our Best Words
+    location: Israel
+    positions:
+      - title: Technical Writing Intern
+        startDate: 2011
+        endDate: 2012
+
+skills:
+  - name: Static site generators
+    items: [Jekyll, Gatsby, Next.js]
+  - name: API documentation
+    items: [Swagger/OpenAPI, ReDoc, JSDoc]
+  - name: Development
+    items: [JavaScript/TypeScript, React, Node, HTML + CSS]
+  - name: Documentation/help
+    items: [FrameMaker, RoboHelp, InDesign]
+  - name: Image creation & editing
+    items: [Snagit, Photoshop, Illustrator, Visio]
+  - name: Video
+    items: [Camtasia]
+  - name: UI mockups & prototypes
+    items: Figma, Sketch, XD, Axure
+
+communities:
+  - name: Write the Docs
+    items:
+      - Active Slack community member, Tel Aviv meetups co-organizer. Presented on how we did <a href="https://github.com/imnotashrimp/presentations/blob/master/2018-10-31_writeTheDocsTLV_docs-as-code-at-logzio/docs-as-code-at-logzio.pdf">docs as code</a> at Logz.io.
+  - name: Content + UX
+    items:
+      - Active Slack community member.
+
+awards:
+  - name: Luminary Award
+    items:
+      - Recognized for contributions and proactively setting up Color Kinetics team for success. Awarded quarterly at Philips Color Kinetics.
+
+training:
+  - name: LinkedIn Learning
+    items:
+      - Blockchain Basics
+      - 'Blockchain: Beyond the Basics'
+  - name: Our Best Words
+    location: 2012, Israel
+    items:
+      - Technical Writing/Marcom Workshop
+  - name: University of Massachusetts, Amherst
+    location: 2011, USA
+    items:
+      - BA, Early Care and Education
