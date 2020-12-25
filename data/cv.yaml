@@ -1,19 +1,27 @@
-heading: Shalom Boroda
-subheading: Technical writer, UX writer, content strategist
-contactInfo:
-  phone: 058 782 6083
-  email: imnotashrimp@gmail.com
-  github: https://github.com/imnotashrimp
-  linkedin: https://www.linkedin.com/in/shalomworld/
+frontmatter:
+  name: Shalom Boroda
+  subhead: Technical writer, UX writer, content strategist
+  contactInfo:
+    phone: 058 782 6083
+    email: imnotashrimp@gmail.com
+    github: https://github.com/imnotashrimp
+    linkedin: https://www.linkedin.com/in/shalomworld/
 
-experience:
+workExperience:
+  - company: Wix
+    location: Israel
+    website: https://www.wix.com/
+    positions:
+      - jobTitle: API Writer
+        startDate: 2020
+        endDate: present
   - company: Logz.io
     location: Israel
     website: https://logz.io
     positions:
-      - title: Technical Writer, UX Writer
+      - jobTitle: Technical Writer, UX Writer
         startDate: 2018
-        endDate: present
+        endDate: 2020
         items:
           - Create and develop content for <a href="https://docs.logz.io">Logz.io docs</a>, a collaborative website for managing docs.
           - Manage public <a href="https://docs.logz.io/api/">API documentation</a>.
@@ -23,7 +31,7 @@ experience:
     location: USA
     website: http://www.colorkinetics.com
     positions:
-      - title: Technical Writer, Software and Systems
+      - jobTitle: Technical Writer, Software and Systems
         startDate: 2015
         endDate: 2017
         items:
@@ -36,13 +44,13 @@ experience:
     location: USA
     website: https://sovos.com
     positions:
-      - title: Operations Trainer
+      - jobTitle: Operations Trainer
         startDate: 2015
         endDate: 2015
         items:
           - Created live online training workshops to teach users configuration of Taxware Enterprise tax calculation software.
           - Trained Professional Services and Customer Support departments.
-      - title: Technical Writer, Software
+      - jobTitle: Technical Writer, Software
         startDate: 2013
         endDate: 2015
         items:
@@ -51,7 +59,7 @@ experience:
   - company: Our Best Words
     location: Israel
     positions:
-      - title: Technical Writing Intern
+      - jobTitle: Technical Writing Intern
         startDate: 2011
         endDate: 2012
 
