@@ -3,11 +3,13 @@ import fs from 'fs'
 import path from 'path'
 import styles from '../styles/Cv.module.css'
 import CvHeader from '../components/cv/CvHeader'
+import ExperienceEntry from '../components/cv/ExperienceEntry'
 const yaml = require('js-yaml')
 
 export default function Cv({response}) {
   const cv             = response.cv
   const frontmatter    = cv.frontmatter
+  const companies      = cv.companies
   const workExperience = cv.workExperience
   const skills         = cv.skills
   const communities    = cv.communities
@@ -23,20 +25,12 @@ export default function Cv({response}) {
     />
 
     <h3>Work Experience</h3>
-    {workExperience.map((workplace, index) => {
-      let {company, location, website, positions} = workplace
-      return(<div key={`${index}`}>
-        <h4><a href={website}>{company}</a> ({location})</h4>
-        {positions.map((position, index) => {
-          let {jobTitle, startDate, endDate, date, items} = position
-          return (<div key={index}>
-            <h5>{jobTitle} ({startDate && endDate ? startDate + ' – ' + endDate : startDate || endDate || date})</h5>
-            <ul>
-              {items ? items.map((item, index) => <li key={index}>{item}</li>) : ''}
-            </ul>
-          </div>)
-        })}
-      </div>)
+    {workExperience.map((position, index) => {
+      return <ExperienceEntry
+        key={index}
+        company={companies[position.companyId]}
+        position={position}
+      />
     })}
 
     <h3>Skills</h3>

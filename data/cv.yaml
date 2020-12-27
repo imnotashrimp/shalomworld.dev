@@ -7,60 +7,70 @@ frontmatter:
     github: imnotashrimp
     linkedin: shalomworld
 
-workExperience:
-  - company: Wix
+companies:
+  wix:
+    companyName: Wix
     location: Israel
     website: https://www.wix.com/
-    positions:
-      - jobTitle: API Writer
-        startDate: 2020
-        endDate: present
-  - company: Logz.io
+  logzio:
+    companyName: Logz.io
     location: Israel
     website: https://logz.io
-    positions:
-      - jobTitle: Technical Writer/UX Writer
-        startDate: 2018
-        endDate: 2020
-        items:
-          - Create and develop content for <a href="https://docs.logz.io">Logz.io docs</a>, a collaborative website for managing docs.
-          - Manage public <a href="https://docs.logz.io/api/">API documentation</a>.
-          - Develop and maintain a <a href="https://github.com/logzio/logz-docs">custom built Jekyll template</a> for docs.
-          - Write UI copy for new designs.
-  - company: Philips Color Kinetics
+  ck:
+    companyName: Philips Color Kinetics
     location: USA
-    website: http://www.colorkinetics.com
-    positions:
-      - jobTitle: Technical Writer, Software and Systems
-        startDate: 2015
-        endDate: 2017
-        items:
-          - Simplified complex concepts and wrote concise content.
-          - Primary technical writer for software, SaaS, and controls.
-          - Authored marketing content for new products.
-          - Created clear, concise UI copy.
-          - Improved user experience by proposing changes to UI and workflow.
-  - company: Sovos Compliance
+    website: http://www.colorkinetics.com/
+  sovos:
+    companyName: Sovos Compliance
     location: USA
-    website: https://sovos.com
-    positions:
-      - jobTitle: Operations Trainer
-        date: 2015
-        items:
-          - Created live online training workshops to teach users configuration of Taxware Enterprise tax calculation software.
-          - Trained Professional Services and Customer Support departments.
-      - jobTitle: Technical Writer, Software
-        startDate: 2013
-        endDate: 2015
-        items:
-          - Authored online help, API documentation, user guides, and release notes for SaaS and on-premise software.
-          - Created technical writing style guide.
-  - company: Our Best Words
+    website: https://sovos.com/
+  ourBestWords:
+    companyName: Our Best Words
     location: Israel
+    website: https://ourbestwords.com/
+
+workExperience:
+  - companyId: wix
+    jobTitle: API Writer
+    startDate: 2020
+    endDate: present
+  - companyId: logzio
+    jobTitle: Technical Writer/UX Writer
+    startDate: 2018
+    endDate: 2020
+    items:
+      - Create and develop content for <a href="https://docs.logz.io">Logz.io docs</a>, a collaborative website for managing docs.
+      - Manage public <a href="https://docs.logz.io/api/">API documentation</a>.
+      - Develop and maintain a <a href="https://github.com/logzio/logz-docs">custom built Jekyll template</a> for docs.
+      - Write UI copy for new designs.
+  - companyId: ck
+    jobTitle: Technical Writer, Software and Systems
+    startDate: 2015
+    endDate: 2017
+    items:
+      - Simplified complex concepts and wrote concise content.
+      - Primary technical writer for software, SaaS, and controls.
+      - Authored marketing content for new products.
+      - Created clear, concise UI copy.
+      - Improved user experience by proposing changes to UI and workflow.
+  - companyId: sovos
     positions:
-      - jobTitle: Technical Writing Intern
-        startDate: 2011
-        endDate: 2012
+    jobTitle: Operations Trainer
+    date: 2015
+    items:
+      - Created live online training workshops to teach users configuration of Taxware Enterprise tax calculation software.
+      - Trained Professional Services and Customer Support departments.
+  - companyId: sovos
+    jobTitle: Technical Writer, Software
+    startDate: 2013
+    endDate: 2015
+    items:
+      - Authored online help, API documentation, user guides, and release notes for SaaS and on-premise software.
+      - Created technical writing style guide.
+  - companyId: ourBestWords
+    jobTitle: Technical Writing Intern
+    startDate: 2011
+    endDate: 2012
 
 skills:
   - name: Static site generators
