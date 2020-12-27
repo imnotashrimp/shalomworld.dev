@@ -24,18 +24,18 @@ export default function Cv({response}) {
     <h3>Work Experience</h3>
     {workExperience.map((workplace, index) => {
       let {company, location, website, positions} = workplace
-      return(<>
+      return(<div key={`${index}`}>
         <h4><a href={website}>{company}</a> ({location})</h4>
-        {positions.map(position => {
+        {positions.map((position, index) => {
           let {jobTitle, startDate, endDate, items} = position
-          return (<>
+          return (<div key={index}>
             <h5>{jobTitle} ({startDate} – {endDate})</h5>
             <ul>
-              {items ? items.map(item => <li>{item}</li>) : ''}
+              {items ? items.map((item, index) => <li key={index}>{item}</li>) : ''}
             </ul>
-          </>)
+          </div>)
         })}
-      </>)
+      </div>)
     })}
 
     <h3>Skills</h3>
