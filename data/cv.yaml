@@ -45,8 +45,7 @@ workExperience:
     website: https://sovos.com
     positions:
       - jobTitle: Operations Trainer
-        startDate: 2015
-        endDate: 2015
+        date: 2015
         items:
           - Created live online training workshops to teach users configuration of Taxware Enterprise tax calculation software.
           - Trained Professional Services and Customer Support departments.
