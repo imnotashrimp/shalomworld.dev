@@ -1,5 +1,4 @@
 .headerContainer {
-  font-family: var(--cv-body-font);
   padding-top: var(--cv-border-width);
   padding-left: 1em;
   padding-right: 1em;
@@ -29,7 +28,6 @@
 }
 
 .cvTitles h1 {
-  font-family: var(--cv-heading-font);
   font-size: 3em;
   margin-bottom: unset;
   line-height: 1em;

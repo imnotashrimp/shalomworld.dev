@@ -1,0 +1,7 @@
+.cv {
+  font-family: var(--cv-body-font);
+}
+
+.cv h1, .cv h2, .cv h3, .cv h4, .cv h5, .cv h6 {
+  font-family: var(--cv-heading-font);
+}
