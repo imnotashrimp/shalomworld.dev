@@ -25,7 +25,7 @@ export default function CvHeader(props) {
 
         <li>
           <i className="fab fa-github"></i>
-          <a href={`https://github.com/${github}`}>{github}</a>
+          <a href={`https://github.com/${github}`}>github.com/{github}</a>
         </li>
 
         <li>
