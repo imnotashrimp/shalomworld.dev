@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Laila:400,700|Nunito+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap');
+
+/* ===== VARIABLES ===== */
+:root {
+  --heading-font: "Duru Sans", sans-serif;
+  --cv-heading-font: "Laila", sans-serif;
+  --body-font: "Barlow", sans-serif;
+  --cv-body-font: "Nunito Sans", sans-serif;
+
+  --text-normal: rgb(var(--text-base));
+  --text-dark-gray: rgba(var(--text-base), .7);
+  --text-medium-gray: rgba(var(--text-base), .4);
+  --text-light-gray: rgba(var(--text-base), .1);
+
+  /* color rgb */
+  --text-base: 0, 55, 76;
+  --primary: 1, 185, 255; /* shalom-blue */
+  --secondary: 1, 148, 204; /* blue-gray */
+  --accent-1: 255, 159, 0; /* orange-peel */
+  --accent-2: 151, 75, 166; /* grape-juice */
+
+  /* color defs */
+  --primary-100: rgb(var(--primary));
+  --primary-70: rgba(var(--primary), .7);
+  --primary-40: rgba(var(--primary), .4);
+  --secondary-100: rgb(var(--secondary));
+  --secondary-70: rgba(var(--secondary), .7);
+  --secondary-40: rgba(var(--secondary), .4);
+  --accent-1-100: rgb(var(--accent-1));
+  --accent-1-70: rgba(var(--accent-1), .7);
+  --accent-1-40: rgba(var(--accent-1), .4);
+  --accent-2-100: rgb(var(--accent-2));
+  --accent-2-70: rgba(var(--accent-2), .7);
+  --accent-2-40: rgba(var(--accent-2), .4);
+
+  /* gradients */
+  --gradient-mint: linear-gradient(to right, var(--primary-100), #01ffc8);
+
+}
+
+/* ===== BASE STYLES ===== */
+body {
+  font-family: var(--body-font);
+  font-size: 18px;
+  color: var(--text-normal);
+  padding: 0;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+}
+
+a, a:active, a:visited {
+  color: var(--secondary-100);
+  text-decoration: none;
+  display: inline-block;
+}
+
+a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  margin-top: -3px;
+  background: var(--secondary-100);
+  transition: width .3s;
+}
+
+a:hover::after {
+  width: 100%;
+}
