@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import fs from 'fs'
 import path from 'path'
 import CvHeader from '../components/cv/CvHeader'
@@ -13,6 +14,9 @@ export default function Cv({response}) {
   const training       = cv.training
 
   return(<>
+    <Head>
+      <title key="title">Stefan (Shalom) Boroda</title>
+    </Head>
     <CvHeader
       frontmatter = {frontmatter}
     />
