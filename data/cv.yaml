@@ -4,8 +4,8 @@ frontmatter:
   contactInfo:
     phone: 058 782 6083
     email: imnotashrimp@gmail.com
-    github: https://github.com/imnotashrimp
-    linkedin: https://www.linkedin.com/in/shalomworld/
+    github: imnotashrimp
+    linkedin: shalomworld
 
 workExperience:
   - company: Wix
@@ -19,7 +19,7 @@ workExperience:
     location: Israel
     website: https://logz.io
     positions:
-      - jobTitle: Technical Writer, UX Writer
+      - jobTitle: Technical Writer/UX Writer
         startDate: 2018
         endDate: 2020
         items:

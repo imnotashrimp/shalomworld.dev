@@ -1,22 +1,24 @@
 import fs from 'fs'
 import path from 'path'
+import CvHeader from '../components/cv/CvHeader'
 const yaml = require('js-yaml')
 
 export default function Cv({response}) {
-  const cv = response.cv
-  const frontmatter = cv.frontmatter,
-        workExperience = cv.workExperience,
-        skills = cv.skills,
-        communities = cv.communities,
-        awards = cv.awards,
-        training = cv.training
+  const cv             = response.cv
+  const frontmatter    = cv.frontmatter
+  const workExperience = cv.workExperience
+  const skills         = cv.skills
+  const communities    = cv.communities
+  const awards         = cv.awards
+  const training       = cv.training
 
   return(<>
-    <h1>{frontmatter.name}</h1>
-    <h2>{frontmatter.subhead}</h2>
+    <CvHeader
+      frontmatter = {frontmatter}
+    />
 
     <h3>Work Experience</h3>
-    {workExperience.map(workplace => {
+    {workExperience.map((workplace, index) => {
       let {company, location, website, positions} = workplace
       return(<>
         <h4><a href={website}>{company}</a> ({location})</h4>
