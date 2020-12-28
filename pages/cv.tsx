@@ -4,25 +4,26 @@ import path from 'path'
 import styles from '../styles/Cv.module.css'
 import CvHeader from '../components/cv/CvHeader'
 import ExperienceEntry from '../components/cv/ExperienceEntry'
+import SkillSection from '../components/cv/SkillSection'
 const yaml = require('js-yaml')
 
 export default function Cv({response}) {
-  const cv             = response.cv
-  const frontmatter    = cv.frontmatter
-  const companies      = cv.companies
-  const workExperience = cv.workExperience
-  const skills         = cv.skills
-  const communities    = cv.communities
-  const awards         = cv.awards
-  const training       = cv.training
+  const {
+    frontmatter,
+    companies,
+    workExperience,
+    skills,
+    communities,
+    awards,
+    training
+  } = response.cv
 
   return(<div className={styles.cv}>
     <Head>
       <title key="title">Stefan (Shalom) Boroda</title>
     </Head>
-    <CvHeader
-      frontmatter = {frontmatter}
-    />
+
+    <CvHeader frontmatter = {frontmatter} />
 
     <h3>Work Experience</h3>
     {workExperience.map((position, index) => {
@@ -33,8 +34,10 @@ export default function Cv({response}) {
       />
     })}
 
-    <h3>Skills</h3>
-    <p>{Object.keys(skills)}</p>
+    <SkillSection title="Skills" array={skills} />
+    <SkillSection title="Communities" array={communities} />
+    <SkillSection title="Awards" array={awards} />
+    <SkillSection title="Education and Training" array={training} />
   </div>)
 }
 
