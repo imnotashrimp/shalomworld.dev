@@ -1,0 +1,19 @@
+.heading {
+  margin-bottom: 0px;
+}
+
+.heading div {
+  display: inline;
+}
+
+.heading .jobTitle {
+  margin-right: 1em;;
+}
+
+.heading .dates {
+  font-size: .8em;
+}
+
+.subheading {
+  font-style: italic;
+}
