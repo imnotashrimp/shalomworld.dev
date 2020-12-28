@@ -1,0 +1,51 @@
+.headerContainer {
+  padding-top: var(--cv-border-width);
+  padding-left: 1em;
+  padding-right: 1em;
+  background: var(--gradient-mint);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  padding-bottom: 7vw;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 4vw)
+  );
+}
+
+.headerContainer a {
+  color: currentColor;
+}
+
+.cvTitles {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.cvTitles h1 {
+  font-size: 3em;
+  margin-bottom: unset;
+  line-height: 1em;
+  color: white;
+}
+
+.subhead {
+  font-size: 1.3em;
+}
+
+.contactInfo {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
+.contactInfo i {
+  display: inline-block;
+  margin-right: 10px;
+}

@@ -1,8 +1,13 @@
+import Head from 'next/head'
 import '../styles/globals.css'
-import '../styles/shalom.css'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (<>
+    <Head>
+      <script src="https://kit.fontawesome.com/c070445439.js" crossOrigin="anonymous"></script>
+    </Head>
+    <Component {...pageProps} />
+  </>)
 }
 
 export default MyApp
