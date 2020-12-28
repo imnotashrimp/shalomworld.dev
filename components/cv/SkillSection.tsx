@@ -8,10 +8,11 @@ export default function SkillSection(props) {
 
     {array.map((entry, index) => {
       let {name, items} = entry
+      items = Array.isArray(items) ? items.join(', ') : items
       return (
         <div key={index}>
           <h4 className={styles.heading}>{name}</h4>
-          <p className={styles.skillsPara} dangerouslySetInnerHTML={{__html: items.join(', ')}}></p>
+          <p className={styles.skillsPara} dangerouslySetInnerHTML={{__html: items}}></p>
         </div>
       )
     })}

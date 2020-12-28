@@ -90,16 +90,13 @@ skills:
 
 communities:
   - name: Write the Docs
-    items:
-      - Active Slack community member, Tel Aviv meetups co-organizer. Presented on how we did <a href="https://github.com/imnotashrimp/presentations/blob/master/2018-10-31_writeTheDocsTLV_docs-as-code-at-logzio/docs-as-code-at-logzio.pdf">docs as code</a> at Logz.io.
+    items: Active Slack community member, Tel Aviv meetups co-organizer. Presented on how we did <a href="https://github.com/imnotashrimp/presentations/blob/master/2018-10-31_writeTheDocsTLV_docs-as-code-at-logzio/docs-as-code-at-logzio.pdf">docs as code</a> at Logz.io.
   - name: Content + UX
-    items:
-      - Active Slack community member.
+    items: Active Slack community member.
 
 awards:
   - name: Luminary Award
-    items:
-      - Recognized for contributions and proactively setting up Color Kinetics team for success. Awarded quarterly at Philips Color Kinetics.
+    items: Recognized for contributions and proactively setting up Color Kinetics team for success. Awarded quarterly at Philips Color Kinetics.
 
 training:
   - name: LinkedIn Learning
@@ -108,9 +105,7 @@ training:
       - 'Blockchain: Beyond the Basics'
   - name: Our Best Words
     location: 2012, Israel
-    items:
-      - Technical Writing/Marcom Workshop
+    items: Technical Writing/Marcom Workshop
   - name: University of Massachusetts, Amherst
     location: 2011, USA
-    items:
-      - BA, Early Care and Education
+    items: BA, Early Care and Education
