@@ -17,7 +17,7 @@ export default function ExperienceEntry(props) {
     </div>
 
     <ul>
-      {items.map((item, index) => <li key={index}>{item}</li>)}
+      {items.map((item, index) => <li key={index} dangerouslySetInnerHTML={{__html: item}}></li>)}
     </ul>
   </>)
 }

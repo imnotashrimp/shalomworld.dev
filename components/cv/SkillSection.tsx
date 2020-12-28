@@ -11,7 +11,7 @@ export default function SkillSection(props) {
       return (
         <div key={index}>
           <h4 className={styles.heading}>{name}</h4>
-          <p className={styles.skillsPara}>{items.join(', ')}</p>
+          <p className={styles.skillsPara} dangerouslySetInnerHTML={{__html: items.join(', ')}}></p>
         </div>
       )
     })}
