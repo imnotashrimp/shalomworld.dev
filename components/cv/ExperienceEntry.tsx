@@ -6,7 +6,7 @@ export default function ExperienceEntry(props) {
     <h4>{jobTitle} (<a href={website}>{companyName}</a> / {location}, {startDate && endDate ? `${startDate} – ${endDate}` : startDate || endDate || date})</h4>
 
     <ul>
-      {items.map((item, index) => <li>{item}</li>)}
+      {items.map((item, index) => <li key={index}>{item}</li>)}
     </ul>
   </>)
 }
