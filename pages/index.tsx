@@ -4,27 +4,28 @@ import fs from 'fs'
 import path from 'path'
 const yaml = require('js-yaml')
 
-export default function Home({cvData}) {
+export default function Home({cv}) {
+
+  console.log('Loading cv data: ', {cv})
   return (<>
     <Head>
       <title key="title">Stefan (Shalom) Boroda</title>
     </Head>
 
-    <Cv data={cvData.cv}/>
+    <Cv data={cv}/>
   </>)
 }
 
 export async function getStaticProps() {
-  let cvData: {[key: string]: any} = {}
+  let cv: {[key: string]: any} = {}
   const cvFilepath = path.join(process.cwd(), 'data', 'cv.yaml')
   const cvYaml = fs.readFileSync(cvFilepath, 'utf-8')
-  const cv = yaml.safeLoad(cvYaml)
 
-  cvData.cv = cv
+  cv = yaml.safeLoad(cvYaml)
 
   return {
     props: {
-      cvData,
+      cv,
     }, // passed to the page component as props
   }
 }
