@@ -30,8 +30,8 @@ export default function Cv(props) {
 
         <SkillSection title="Skills" array={skills} />
         <SkillSection title="Communities" array={communities} />
-        <SkillSection title="Awards" array={awards} />
         <SkillSection title="Education and Training" array={training} />
+        <SkillSection title="Awards" array={awards} />
       </div>
     </div>
   )
