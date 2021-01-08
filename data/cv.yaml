@@ -39,37 +39,36 @@ workExperience:
     startDate: 2018
     endDate: 2020
     items:
-      - content: Create and develop content for <a href="https://docs.logz.io">Logz.io docs</a>, a collaborative website for managing docs.
-      - content: Manage public <a href="https://docs.logz.io/api/">API documentation</a>.
-      - content: Develop and maintain a <a href="https://github.com/logzio/logz-docs">custom built Jekyll template</a> for docs.
-      - content: Write UI copy for new designs.
+      - Create and develop content for <a href="https://docs.logz.io">Logz.io docs</a>, a collaborative website for managing docs.
+      - Manage public <a href="https://docs.logz.io/api/">API documentation</a>.
+      - Develop and maintain a <a href="https://github.com/logzio/logz-docs">custom built Jekyll template</a> for docs.
+      - Write UI copy for new designs.
   - companyId: ck
     jobTitle: Technical Writer, Software and Systems
     startDate: 2015
     endDate: 2017
     items:
-      - content: Simplified complex concepts and wrote concise content.
-      - content: Primary technical writer for software, SaaS, and controls.
-      - content: Authored marketing content for new products.
-      - content: Created clear, concise UI copy.
-      - content: Improved user experience by proposing changes to UI and workflow.
+      - Simplified complex concepts and wrote concise content.
+      - Primary technical writer for software, SaaS, and controls.
+      - Authored marketing content for new products.
+      - Created clear, concise UI copy.
+      - Improved user experience by proposing changes to UI and workflow.
   - companyId: sovos
     positions:
     jobTitle: Operations Trainer
     date: 2015
     items:
-      - content: Created live online training workshops to teach users configuration of Taxware Enterprise tax calculation software.
-      - content: Trained Professional Services and Customer Support departments.
+      - Created live online training workshops to teach users configuration of Taxware Enterprise tax calculation software.
+      - Trained Professional Services and Customer Support departments.
   - companyId: sovos
     jobTitle: Technical Writer, Software
     startDate: 2013
     endDate: 2015
     items:
-      - content: Authored online help, API documentation, user guides, and release notes for SaaS and on-premise software.
-      - content: Created technical writing style guide.
+      - Authored online help, API documentation, user guides, and release notes for SaaS and on-premise software.
+      - Created technical writing style guide.
   - companyId: ourBestWords
     jobTitle: Technical Writing Intern
-    hidden: true
     startDate: 2011
     endDate: 2012
 

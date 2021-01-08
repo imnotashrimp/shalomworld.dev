@@ -19,7 +19,7 @@ export default function ExperienceEntry(props) {
     <ul className={styles.bulletList}>
       {
         items.map((item, index) => {
-          return <li key={index} dangerouslySetInnerHTML={{__html: item.content}}></li>
+          return <li key={index} dangerouslySetInnerHTML={{__html: item}}></li>
         })
       }
     </ul>
