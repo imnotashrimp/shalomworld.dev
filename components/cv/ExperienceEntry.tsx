@@ -16,7 +16,7 @@ export default function ExperienceEntry(props) {
       <a href={website}>{companyName}</a>, {location}
     </div>
 
-    <ul>
+    <ul className={styles.bulletList}>
       {items.map((item, index) => <li key={index} dangerouslySetInnerHTML={{__html: item}}></li>)}
     </ul>
   </>)
