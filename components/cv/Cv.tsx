@@ -19,7 +19,7 @@ export default function Cv(props) {
       <CvHeader frontmatter = {frontmatter} />
 
       <div className={styles.cvContent}>
-        <h3>Work Experience</h3>
+        <h2>Work Experience</h2>
         {workExperience.map((position, index) => {
           return <ExperienceEntry
             key={index}

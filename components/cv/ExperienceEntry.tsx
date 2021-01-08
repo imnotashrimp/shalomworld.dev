@@ -7,10 +7,10 @@ export default function ExperienceEntry(props) {
   items = items || []
   let {companyName, location, website} = props.company
   return (<>
-    <h4 className={styles.heading}>
+    <h3 className={styles.heading}>
       <div className={styles.jobTitle}>{jobTitle}</div>
       <div className={styles.dates}>( {dates} )</div>
-    </h4>
+    </h3>
 
     <div className={styles.subheading}>
       <a href={website}>{companyName}</a>, {location}
