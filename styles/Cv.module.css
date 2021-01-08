@@ -1,7 +1,42 @@
+/* Tablets, at least 760px wide */
+@media screen and (min-width: 760px) {
+  .cv {
+    --cv-border-width: 40px;
+    --cv-content-width: 600px;
+  }
+}
+
+/* Laptops */
+@media screen and (min-width: 1024px) {
+  .cv {
+    --cv-border-width: 50px;
+  }
+}
+
+/* Desktops */
+@media screen and (min-width: 1440px) {
+  .cv {
+    --cv-border-width: 100px;
+  }
+}
+
 .cv {
   font-family: var(--cv-body-font);
+  font-size: 18px;
+  border-left: var(--cv-border-width) solid;
+  border-right: var(--cv-border-width) solid;
+  border-top: 0;
+  border-bottom: 0;
+  border-image-source: var(--gradient-mint);
+  border-image-slice: 20;
 }
 
 .cv h1, .cv h2, .cv h3, .cv h4, .cv h5, .cv h6 {
   font-family: var(--cv-heading-font);
+}
+
+.cvContent {
+  width: var(--cv-content-width);
+  margin-left: auto;
+  margin-right: auto;
 }
