@@ -74,19 +74,40 @@ workExperience:
 
 skills:
   - name: Static site generators
-    items: ['Jekyll', 'Next.js', 'Gatsby']
+    items:
+      - Jekyll
+      - Next.js
+      - Gatsby
   - name: API documentation
-    items: ['Swagger/OpenAPI', 'ReDoc', 'JSDoc', 'Protobuf/RPC']
+    items:
+      - Swagger/OpenAPI
+      - JSDoc
+      - Protobuf/RPC
   - name: Development
-    items: ['JavaScript/TypeScript', 'React', 'Node', 'HTML + CSS']
+    items:
+      - JavaScript/TypeScript
+      - React
+      - Node
+      - HTML + CSS
   - name: Documentation/help
-    items: ['FrameMaker', 'RoboHelp', 'InDesign']
+    items:
+      - FrameMaker
+      - RoboHelp
+      - InDesign
   - name: Image creation & editing
-    items: ['Snagit', 'Photoshop', 'Illustrator', 'Visio']
+    items:
+      - Snagit
+      - Photoshop
+      - Illustrator
+      - Visio
   - name: Video
-    items: ['Camtasia']
+    items:
+      - Camtasia
   - name: UI mockups & prototypes
-    items: ['Figma', 'Sketch', 'XD']
+    items:
+      - Figma
+      - Sketch
+      - XD
 
 communities:
   - name: Write the Docs
