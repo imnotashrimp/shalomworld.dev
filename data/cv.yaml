@@ -1,11 +1,23 @@
 frontmatter:
   name: Shalom Boroda
-  subhead: Technical writer, UX writer, developer
+  subhead: Technical writer, UX writer, coder. Lover of all things tech.
   contactInfo:
-    phone: 058 782 6083
-    email: imnotashrimp@gmail.com
-    github: imnotashrimp
-    linkedin: shalomworld
+    - type: phone
+      faIconId: fas fa-phone
+      linkHref: tel:+972587826083
+      display: +972 58 782 6083
+    - type: email
+      faIconId: far fa-envelope
+      linkHref: mailto:imnotashrimp@gmail.com
+      display: imnotashrimp@gmail.com
+    - type: github
+      faIconId: fab fa-github
+      linkHref: https://github.com/imnotashrimp
+      display: github.com/imnotashrimp
+    - type: linkedin
+      faIconId: fab fa-linkedin
+      linkHref: https://www.linkedin.com/in/shalomworld/
+      display: linkedin.com/in/shalomworld
 
 companies:
   wix:
@@ -54,7 +66,6 @@ workExperience:
       - Created clear, concise UI copy.
       - Improved user experience by proposing changes to UI and workflow.
   - companyId: sovos
-    positions:
     jobTitle: Operations Trainer
     date: 2015
     items:

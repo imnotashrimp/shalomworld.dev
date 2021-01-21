@@ -39,13 +39,7 @@
 }
 
 .contactInfo {
-  list-style-type: none;
   padding: 0;
   margin-bottom: 0;
   font-size: 1em;
-}
-
-.contactInfo i {
-  display: inline-block;
-  margin-right: 10px;
 }
