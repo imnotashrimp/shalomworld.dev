@@ -6,6 +6,7 @@ import SkillSection from './SkillSection'
 export default function Cv(props) {
   const {
     frontmatter,
+    contactInfo,
     companies,
     workExperience,
     skills,
@@ -17,7 +18,10 @@ export default function Cv(props) {
   return(
     <div className={styles.cv}>
       {/* Header */}
-      <CvHeader frontmatter = {frontmatter} />
+      <CvHeader
+        frontmatter={frontmatter}
+        contactInfo={contactInfo}
+      />
 
       {/* Main content */}
       <div className={styles.cvContent}>

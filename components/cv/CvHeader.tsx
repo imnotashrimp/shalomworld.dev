@@ -2,7 +2,8 @@ import styles from '../../styles/CvHeader.module.css'
 import CvContactMethods from '../../components/cv/CvContactMethods'
 
 export default function CvHeader(props) {
-  const {name, subhead, contactInfo} = props.frontmatter
+  const {contactInfo, frontmatter} = props
+  const {name, subhead} = frontmatter
 
   return (
     <div className={styles.headerContainer}>

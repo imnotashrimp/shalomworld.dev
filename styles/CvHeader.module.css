@@ -1,13 +1,16 @@
-.headerContainer {
-  padding-top: var(--cv-border-width);
-  padding-left: 1em;
-  padding-right: 1em;
+.headerContainer, .footerContainer {
   background: var(--gradient-mint);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-evenly;
+}
+
+.headerContainer {
+  padding-top: var(--cv-border-width);
+  padding-left: 1em;
+  padding-right: 1em;
   padding-bottom: 7vw;
   clip-path: polygon(
     0 0,
@@ -17,7 +20,7 @@
   );
 }
 
-.headerContainer a {
+.headerContainer a, .footerContainer a {
   color: currentColor;
 }
 
@@ -36,10 +39,4 @@
 
 .subhead {
   font-size: 1.3em;
-}
-
-.contactInfo {
-  padding: 0;
-  margin-bottom: 0;
-  font-size: 1em;
 }
