@@ -5,3 +5,10 @@
   margin-top: 50px;
   min-height: 150px;
 }
+
+.inlineLogo {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 7px;
+  height: 1em;
+}
