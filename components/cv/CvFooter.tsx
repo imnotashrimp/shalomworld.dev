@@ -1,7 +1,6 @@
 import styles from '../../styles/CvFooter.module.css'
 import headerStyles from '../../styles/CvHeader.module.css'
 import Icon from '../Icon'
-import Image from 'next/image'
 
 export default function CvFooter(props) {
 
