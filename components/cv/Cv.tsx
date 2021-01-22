@@ -1,5 +1,6 @@
 import styles from '../../styles/Cv.module.css'
 import CvHeader from './CvHeader'
+import CvFooter from './CvFooter'
 import ExperienceSection from './ExperienceSection'
 import SkillSection from './SkillSection'
 
@@ -37,7 +38,7 @@ export default function Cv(props) {
       </div>
 
       {/* Footer */}
-      
+      <CvFooter />
     </div>
   )
 }
