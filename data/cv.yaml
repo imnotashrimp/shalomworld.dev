@@ -1,11 +1,24 @@
 frontmatter:
   name: Shalom Boroda
-  subhead: Technical writer, UX writer, developer
-  contactInfo:
-    phone: 058 782 6083
-    email: imnotashrimp@gmail.com
-    github: imnotashrimp
-    linkedin: shalomworld
+  subhead: Technical writer, UX writer, coder. Lover of all things tech.
+
+contactInfo:
+  - type: phone
+    faIconId: phone
+    linkHref: tel:+972587826083
+    display: +972 58 782 6083
+  - type: email
+    faIconId: envelope
+    linkHref: mailto:imnotashrimp@gmail.com
+    display: imnotashrimp@gmail.com
+  - type: github
+    faIconId: github
+    linkHref: https://github.com/imnotashrimp
+    display: github.com/imnotashrimp
+  - type: linkedin
+    faIconId: linkedin
+    linkHref: https://www.linkedin.com/in/shalomworld/
+    display: linkedin.com/in/shalomworld
 
 companies:
   wix:
@@ -54,7 +67,6 @@ workExperience:
       - Created clear, concise UI copy.
       - Improved user experience by proposing changes to UI and workflow.
   - companyId: sovos
-    positions:
     jobTitle: Operations Trainer
     date: 2015
     items:
@@ -74,19 +86,40 @@ workExperience:
 
 skills:
   - name: Static site generators
-    items: ['Jekyll', 'Gatsby', 'Next.js']
+    items:
+      - Jekyll
+      - Next.js
+      - Gatsby
   - name: API documentation
-    items: ['Swagger/OpenAPI', 'ReDoc', 'JSDoc']
+    items:
+      - Swagger/OpenAPI
+      - JSDoc
+      - Protobuf/RPC
   - name: Development
-    items: ['JavaScript/TypeScript', 'React', 'Node', 'HTML + CSS']
+    items:
+      - JavaScript/TypeScript
+      - React
+      - Node
+      - HTML + CSS
   - name: Documentation/help
-    items: ['FrameMaker', 'RoboHelp', 'InDesign']
+    items:
+      - FrameMaker
+      - RoboHelp
+      - InDesign
   - name: Image creation & editing
-    items: ['Snagit', 'Photoshop', 'Illustrator', 'Visio']
+    items:
+      - Snagit
+      - Photoshop
+      - Illustrator
+      - Visio
   - name: Video
-    items: ['Camtasia']
+    items:
+      - Camtasia
   - name: UI mockups & prototypes
-    items: ['Figma', 'Sketch', 'XD', 'Axure']
+    items:
+      - Figma
+      - Sketch
+      - XD
 
 communities:
   - name: Write the Docs

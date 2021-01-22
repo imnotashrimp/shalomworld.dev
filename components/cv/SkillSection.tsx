@@ -4,7 +4,7 @@ export default function SkillSection(props) {
   let {title, array} = props
 
   return (<>
-    <h3>{title}</h3>
+    <h2>{title}</h2>
 
     {array.map((entry, index) => {
       let {name, items} = entry
