@@ -1,4 +1,5 @@
 import styles from '../../styles/CvContactMethods.module.css'
+import Icon from '../Icon'
 
 export default function CvContactMethods(props) {
   let { contactInfo } = props
@@ -26,7 +27,7 @@ export function ContactMethod(props) {
 
   return (
     <div>
-      <i className={`${faIconId} ${styles.contactIcon}`}></i>
+      <Icon name={faIconId} className={styles.contactIcon}/>
       <a href={linkHref} target='_blank'>{display}</a>
     </div>
   )

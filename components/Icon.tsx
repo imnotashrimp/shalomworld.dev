@@ -1,10 +1,10 @@
 export default function Icon(props) {
-  let {name} = props
+  let {name, className} = props
   let provider = props.provider || 'fa'
 
   let iconClassName = iconKeys[provider][name]
 
-  return <i className={iconClassName}></i>
+  return <i className={`${iconClassName} ${className}`}></i>
 }
 
 const iconKeys = {
