@@ -1,7 +1,23 @@
 import styles from '../../styles/CvEntry.module.css'
 
-export default function ExperienceEntry(props) {
-  let {jobTitle, startDate, endDate, date, items} = props.position
+export default function Experience(props) {
+  let { title, experienceList, companies } = props
+  return (<>
+    <h2>{title}</h2>
+    {experienceList.map((position, index) => {
+      return (
+        <ExperienceEntry
+          key={index}
+          company={companies[position.companyId]}
+          position={position}
+      />
+      )
+    })}
+  </>)
+}
+
+export function ExperienceEntry(props) {
+  let { jobTitle, startDate, endDate, date, items } = props.position
   let dates = startDate && endDate ? `${startDate} – ${endDate}` : startDate || endDate || date
 
   items = items || []

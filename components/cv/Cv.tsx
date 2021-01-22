@@ -1,6 +1,6 @@
 import styles from '../../styles/Cv.module.css'
 import CvHeader from './CvHeader'
-import ExperienceEntry from './ExperienceEntry'
+import ExperienceSection from './ExperienceSection'
 import SkillSection from './SkillSection'
 
 export default function Cv(props) {
@@ -16,23 +16,24 @@ export default function Cv(props) {
 
   return(
     <div className={styles.cv}>
+      {/* Header */}
       <CvHeader frontmatter = {frontmatter} />
 
+      {/* Main content */}
       <div className={styles.cvContent}>
-        <h2>Work Experience</h2>
-        {workExperience.map((position, index) => {
-          return <ExperienceEntry
-            key={index}
-            company={companies[position.companyId]}
-            position={position}
-          />
-        })}
-
+        <ExperienceSection
+          title="Work Experience"
+          experienceList={workExperience}
+          companies={companies}
+        />
         <SkillSection title="Skills" array={skills} />
         <SkillSection title="Communities" array={communities} />
         <SkillSection title="Education and Training" array={training} />
         <SkillSection title="Awards" array={awards} />
       </div>
+
+      {/* Footer */}
+      
     </div>
   )
 }
