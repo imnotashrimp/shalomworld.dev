@@ -4,6 +4,7 @@
   background: var(--gradient-mint);
   margin-top: 50px;
   min-height: 150px;
+  text-align: center;
 }
 
 .inlineLogo {
