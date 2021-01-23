@@ -12,7 +12,7 @@ export default function CvFooter(props) {
         {` `} and {` `}
         <a href="https://nextjs.org/" target="_blank">Next.js</a>.
         <br />
-        Stored in {` `}
+        Sourced in {` `}
         <a href="https://github.com/imnotashrimp/shalomworld" target="_blank"><Icon name='github' /> GitHub</a>,
         served by {` `}
         <a href="https://www.netlify.com/" target="_blank"><img src='/netlify-logo-light.svg' alt="Netlify" className={styles.inlineLogo}/> Netlify</a>.
