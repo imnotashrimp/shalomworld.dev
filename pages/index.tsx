@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Cv from '../components/cv/Cv'
+import CvLayout from '../components/layouts/CvLayout'
 import fs from 'fs'
 import path from 'path'
 const yaml = require('js-yaml')
@@ -12,7 +12,7 @@ export default function Home({cv}) {
       <title key="title">Stefan (Shalom) Boroda</title>
     </Head>
 
-    <Cv data={cv}/>
+    <CvLayout data={cv}/>
   </>)
 }
 

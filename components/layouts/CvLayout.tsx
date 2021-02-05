@@ -1,10 +1,10 @@
 import styles from '../../styles/Cv.module.css'
-import CvHeader from './CvHeader'
-import CvFooter from './CvFooter'
-import ExperienceSection from './ExperienceSection'
-import SkillSection from './SkillSection'
+import CvHeader from '../cv/CvHeader'
+import CvFooter from '../cv/CvFooter'
+import ExperienceSection from '../cv/ExperienceSection'
+import SkillSection from '../cv/SkillSection'
 
-export default function Cv(props) {
+export default function CvLayout(props) {
   const {
     frontmatter,
     contactInfo,
