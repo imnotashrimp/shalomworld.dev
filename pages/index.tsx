@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Cv from '../components/cv/Cv'
 import fs from 'fs'
 import path from 'path'
-const yaml = require('js-yaml')
+import {load} from 'js-yaml'
 
 export default function Home({cv}) {
 
@@ -21,7 +21,7 @@ export async function getStaticProps() {
   const cvFilepath = path.join(process.cwd(), 'data', 'cv.yaml')
   const cvYaml = fs.readFileSync(cvFilepath, 'utf-8')
 
-  cv = yaml.safeLoad(cvYaml)
+  cv = load(cvYaml)
 
   return {
     props: {
