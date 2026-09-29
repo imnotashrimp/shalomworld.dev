@@ -44,11 +44,11 @@ companies:
 
 workExperience:
   - companyId: wix
-    jobTitle: API Writer
+    jobTitle: Developer docs writer
     startDate: 2020
     endDate: present
   - companyId: logzio
-    jobTitle: Technical Writer/UX Writer
+    jobTitle: Technical writer/UX writer
     startDate: 2018
     endDate: 2020
     items:
@@ -57,7 +57,7 @@ workExperience:
       - Developed and maintained a <a href="https://github.com/logzio/logz-docs">custom built Jekyll template</a> for docs.
       - Wrote UI copy for new designs.
   - companyId: ck
-    jobTitle: Technical Writer, Software and Systems
+    jobTitle: Technical writer, software and systems
     startDate: 2015
     endDate: 2017
     items:
@@ -67,13 +67,13 @@ workExperience:
       - Created clear, concise UI copy.
       - Improved user experience by proposing changes to UI and workflow.
   - companyId: sovos
-    jobTitle: Operations Trainer
+    jobTitle: Operations trainer
     date: 2015
     items:
       - Created live online training workshops to teach users configuration of Taxware Enterprise tax calculation software.
       - Trained Professional Services and Customer Support departments.
   - companyId: sovos
-    jobTitle: Technical Writer, Software
+    jobTitle: Technical writer, software
     startDate: 2013
     endDate: 2015
     items:
@@ -138,7 +138,7 @@ training:
       - 'Blockchain: Beyond the Basics'
   - name: Our Best Words
     location: 2012, Israel
-    items: Technical Writing/Marcom Workshop
+    items: Technical writing and marketing communication workshop
   - name: University of Massachusetts, Amherst
     location: 2011, USA
     items: BA, Early Care and Education
