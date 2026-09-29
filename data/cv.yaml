@@ -1,6 +1,8 @@
 frontmatter:
   name: Shalom Boroda
-  subhead: Technical writer, UX writer, coder. Lover of all things tech.
+  subhead: |
+    Docs engineer, senior API tech writer, team lead, coder, UX writer.
+    Lover of all things tech.
 
 contactInfo:
   # - type: phone
@@ -21,6 +23,10 @@ contactInfo:
     display: linkedin.com/in/shalomworld
 
 companies:
+  eon:
+    companyName: Eon.io
+    location: Israel
+    website: https://www.eon.com/
   wix:
     companyName: Wix
     location: Israel
@@ -43,6 +49,10 @@ companies:
     website: https://ourbestwords.com/
 
 workExperience:
+  - companyId: eon
+    jobTitle: Senior technical writer
+    startDate: 2024
+    endDate: present
   - companyId: wix
     jobTitle: Developer docs writer
     startDate: 2020
