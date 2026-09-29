@@ -54,9 +54,13 @@ workExperience:
     startDate: 2024
     endDate: present
   - companyId: wix
-    jobTitle: Developer docs writer
+    jobTitle: Team lead, Technical Writers Guild
     startDate: 2020
     endDate: 2024
+    items:
+      - Set and enforced style and quality standards for technical writing within the team.
+      - Mentored junior technical writers and provided guidance on best practices.
+      - Coordinated with cross-functional teams to ensure documentation aligns with product development.
   - companyId: logzio
     jobTitle: Technical writer/UX writer
     startDate: 2018
