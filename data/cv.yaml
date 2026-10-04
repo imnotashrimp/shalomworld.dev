@@ -53,13 +53,17 @@ workExperience:
     jobTitle: Senior technical writer
     startDate: 2024
     endDate: present
+    items:
+      - As the founding (and sole) technical writer, defined and created Eon's product and API documentation.
+      - Create and refine AI skills and agents to allow anyone at the company to write docs while maintaining high quality and trustworthiness.
+      - Manage docs infrastructure, tests, and automations.
   - companyId: wix
     jobTitle: Team lead, Technical Writers Guild
     startDate: 2020
     endDate: 2024
     items:
       - Set and enforced style and quality standards for technical writing within the team.
-      - Mentored junior technical writers and provided guidance on best practices.
+      - Mentored junior and mid-level technical writers and provided guidance on best practices.
       - Coordinated with cross-functional teams to ensure documentation aligns with product development.
   - companyId: logzio
     jobTitle: Technical writer/UX writer
