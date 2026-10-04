@@ -1,6 +1,8 @@
 frontmatter:
   name: Shalom Boroda
-  subhead: Technical writer, UX writer, coder. Lover of all things tech.
+  subhead: |
+    Docs engineer, senior API tech writer, team lead, coder, UX writer.
+    Lover of all things tech.
 
 contactInfo:
   # - type: phone
@@ -21,6 +23,10 @@ contactInfo:
     display: linkedin.com/in/shalomworld
 
 companies:
+  eon:
+    companyName: Eon.io
+    location: Israel
+    website: https://www.eon.com/
   wix:
     companyName: Wix
     location: Israel
@@ -43,12 +49,24 @@ companies:
     website: https://ourbestwords.com/
 
 workExperience:
-  - companyId: wix
-    jobTitle: API Writer
-    startDate: 2020
+  - companyId: eon
+    jobTitle: Senior technical writer
+    startDate: 2024
     endDate: present
+    items:
+      - As the founding (and sole) technical writer, defined and created Eon's product and API documentation.
+      - Create and refine AI skills and agents to allow anyone at the company to write docs while maintaining high quality and trustworthiness.
+      - Manage docs infrastructure, tests, and automations.
+  - companyId: wix
+    jobTitle: Team lead, Technical Writers Guild
+    startDate: 2020
+    endDate: 2024
+    items:
+      - Set and enforced style and quality standards for technical writing within the team.
+      - Mentored junior and mid-level technical writers and provided guidance on best practices.
+      - Coordinated with cross-functional teams to ensure documentation aligns with product development.
   - companyId: logzio
-    jobTitle: Technical Writer/UX Writer
+    jobTitle: Technical writer/UX writer
     startDate: 2018
     endDate: 2020
     items:
@@ -57,7 +75,7 @@ workExperience:
       - Developed and maintained a <a href="https://github.com/logzio/logz-docs">custom built Jekyll template</a> for docs.
       - Wrote UI copy for new designs.
   - companyId: ck
-    jobTitle: Technical Writer, Software and Systems
+    jobTitle: Technical writer, software and systems
     startDate: 2015
     endDate: 2017
     items:
@@ -67,13 +85,13 @@ workExperience:
       - Created clear, concise UI copy.
       - Improved user experience by proposing changes to UI and workflow.
   - companyId: sovos
-    jobTitle: Operations Trainer
+    jobTitle: Operations trainer
     date: 2015
     items:
       - Created live online training workshops to teach users configuration of Taxware Enterprise tax calculation software.
       - Trained Professional Services and Customer Support departments.
   - companyId: sovos
-    jobTitle: Technical Writer, Software
+    jobTitle: Technical writer, software
     startDate: 2013
     endDate: 2015
     items:
@@ -132,13 +150,9 @@ awards:
     items: Recognized for contributions and proactively setting up Color Kinetics team for success. Awarded quarterly at Philips Color Kinetics.
 
 training:
-  - name: LinkedIn Learning
-    items:
-      - Blockchain Basics
-      - 'Blockchain: Beyond the Basics'
   - name: Our Best Words
     location: 2012, Israel
-    items: Technical Writing/Marcom Workshop
+    items: Technical writing and marketing communication workshop
   - name: University of Massachusetts, Amherst
     location: 2011, USA
     items: BA, Early Care and Education
